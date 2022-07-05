@@ -70,16 +70,29 @@
 // This Length, That Value
 // Given two numbers, return array of length num1 with each value num2. Print "Jinx!" if they are same.
 
-function newArr(num1, num2){
-  let arr = []
-  for(let i = 1; i <= num1; i++){
-    arr.push(num2)
-    console.log(arr)
-    if(num1 === num2){
-      console.log('Jinx')
-    }
-  }
+// function newArr(num1, num2){
+//   let arr = []
+//   for(let i = 1; i <= num1; i++){
+//     arr.push(num2)
+//     console.log(arr)
+//     if(num1 === num2){
+//       console.log('Jinx')
+//     }
+//   }
 
-}
+// }
 
-newArr(5,2)
+// newArr(5,2)
+
+// function firstValue(arr){
+  
+//     if(arr[0] > arr.length){
+//       console.log('Too big!')
+//     }else if(arr[0] < arr.length){
+//   console.log('Too small')
+// } else{
+//   console.log('Just right')
+// }}
+
+
+// firstValue([5,5,3,6,4])
