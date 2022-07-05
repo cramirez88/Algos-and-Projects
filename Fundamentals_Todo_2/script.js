@@ -21,3 +21,17 @@
 // }
 
 // print([1,2])
+
+// First Plus Length
+// Given an array, return the sum of the first value in the array, plus the array’s length. What happens if the array’s first value is not a number, but a string (like "what?") or a boolean (like false).
+
+// function firstPlusLength(arr){
+//   let sum = 0
+//   for(let i = 0; i < arr.length;i++){
+//     sum = arr[0] + arr.length
+//   }
+
+//   return sum
+// }
+
+// console.log(firstPlusLength([1,2,3,4,5]))
