@@ -11,3 +11,13 @@
 // }
 
 // countdown(4)
+
+// Print and Return
+// Your function will receive an array with two numbers. Print the first value, and return the second.
+
+// function print(arr){
+//   console.log(arr[0])
+//   return arr[1]
+// }
+
+// print([1,2])
