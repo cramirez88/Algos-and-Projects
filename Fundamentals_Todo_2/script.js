@@ -67,3 +67,19 @@
 // console.log(greaterThanTwo([1,2,3,4,3,2,5]))
 // console.log(newArr.length)
 
+// This Length, That Value
+// Given two numbers, return array of length num1 with each value num2. Print "Jinx!" if they are same.
+
+function newArr(num1, num2){
+  let arr = []
+  for(let i = 1; i <= num1; i++){
+    arr.push(num2)
+    console.log(arr)
+    if(num1 === num2){
+      console.log('Jinx')
+    }
+  }
+
+}
+
+newArr(5,2)
