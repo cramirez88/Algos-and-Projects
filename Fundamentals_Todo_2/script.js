@@ -47,3 +47,23 @@
 //     console.log(arr[i])
 //   }
 // }
+
+
+// Values Greater than Second, Generalized
+// Write a function that accepts any array, and returns a new array with the array values that are greater than its 2nd value. Print how many values this is. What will you do if the array is only one element long?
+
+// let newArr = []
+// function greaterThanTwo(arr){
+  
+//   for(let i = 0; i <= arr.length; i++){
+//     if(arr[i] > arr[1]){
+//       console.log(arr[i])
+//       newArr.push(arr[i])
+//     }
+//   }
+//   return newArr
+// }
+
+// console.log(greaterThanTwo([1,2,3,4,3,2,5]))
+// console.log(newArr.length)
+
